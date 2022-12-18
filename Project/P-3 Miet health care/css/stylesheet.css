@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***********************Logo css*******************/
+#logo img {
+    width: 100px;
+    height: 100px;
+    margin: 3px 3px;
+
+}
+
+#logo img:hover {
+    cursor: pointer;
+
+}
+
+#navbar {
+    top: 0%;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: #e9eeec;
+    border-radius: 13px;
+    width: 100%;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navbar ul li a {
+    color: black;
+    background-color: #e3e5e5;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 5px 5px;
+    padding: 12px 41px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    border-radius: 29px;
+    display: block;
+}
+
+#navbar ul li a:hover {
+    color: rgb(17, 180, 251);
+    font-weight: bolder;
+    background-color: rgb(251, 247, 247);
+    border-radius: 21px;
+}
+
+#home a {
+    font-weight: bolder;
+}
+
+/* For Appointment button */
+
+.btn {
+    background-color: #57dcc1;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 23px;
+    border: none;
+    margin: 7px 7px;
+    padding: 9px 19px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+.btn:hover {
+    background-color: #16a085;
+    border-radius: 25px;
+    font-size: 1.4rem;
+
+}
+
+.head {
+    top: 34rem;
+    position: absolute;
+    margin: 12px 12px;
+    padding: 12px 12px;
+
+}
+
+/* Home Section */
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section .image {
+    width: 50%;
+}
+
+.home-section .image img {
+    width: 95%;
+}
+
+.home-section .content h1 {
+    font-size: 65px;
+    color: black;
+    text-shadow: 3px 3px #cae5b8;
+}
+
+.home-section .content p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.home-section .content .button {
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    border-color: #16a085;
+    border: 2px solid #57dcc1;
+    border-radius: 12px;
+    background: none;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.home-section .content .button:hover {
+    width: 136px;
+    height: 50px;
+    background: #2bbb9e;
+    color: #fff;
+}
+
+.home-section .content .button a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.container {
+    background-color: rgb(157, 211, 197);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.services {
+    /* background: url(..//images/banner/sara-banner-2.jpg) no-repeat center center; */
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+}
+
+
+
+/* About us */
+.about-section .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .aboutus {
+    font-size: 60px;
+    color: #16a085;
+    text-align: center;
+    text-shadow: 3px 3px #cae5b8;
+}
+
+.about-section .about .left-image {
+    width: 50%;
+}
+
+.about-section .about .left-image img {
+    width: 100%;
+}
+
+.about-section .about .right-text {
+    width: 80%;
+    padding: 25px 25px;
+
+}
+
+.about-section .about .right-text h1 {
+    color: #403e3e;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 3px 3px #cae5b8;
+}
+
+.about-section .about .right-text p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+/* Doctor Images */
+
+
+.doctor-section h1 {
+    font-size: 40px;
+    color: #16a085;
+    text-align: center;
+    text-shadow: 3px 3px #cae5b8;
+}
+
+.doctor-section .containeer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.containeer .box {
+    margin: 10px;
+    width: 350px;
+    height: 354px;
+    border: 1px solid #15A488;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box img {
+    width: 230px;
+    height: 215px;
+    margin-top: 36px;
+    border-radius: 12px;
+    border: 2px solid #16a085;
+    transition: all 0.3s ease-in-out;
+}
+
+.box span {
+    color: grey;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box img:hover {
+    width: 242px;
+    height: 234px;
+    border-radius: 23px;
+    cursor: pointer;
+    background: #aaa;
+
+}
+
+.containeer h3 {
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+
+.gallery {
+    padding: 4px;
+}
+
+.gallery h1 {
+    font-size: 40px;
+    color: #15A488;
+    text-shadow: 3px 3px #cae5b8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-gallery {
+    flex: 1 1 300px;
+
+
+}
+
+.inner-gallery img {
+    width: 100%;
+    transition: 0.3s;
+
+    border: 2px solid #15A488;
+    border-radius: 12px;
+}
+
+.inner-gallery img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+/* *****Map****** */
+.map{
+    width: 100%;
+    border: 2px solid #15A488;
+    border-radius: 23px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+    filter: invert(100%);
+    border-radius: 23px;
+}
+/* ********Footer Css******** */
+
+.container-footer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: nowrap;
+}
+ul{
+	list-style: none;
+    margin: 4px 7px;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.footer-col h4:hover{
+    font-size: 20px;
+    columns: #f7f5f5;
+    text-transform: capitalize;
+	margin-bottom: 35px;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 80px;
+}
+.footer-col .links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}

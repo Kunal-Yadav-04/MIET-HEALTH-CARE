@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#logo img {
+    width: 100px;
+    height: 100px;
+    margin: 3px 3px;
+
+}
+
+#logo img:hover {
+    cursor: pointer;
+
+}
+
+#navbar {
+    top: 0%;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: #e9eeec;
+    border-radius: 13px;
+    width: 100%;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navbar ul li a {
+    color: black;
+    background-color: #e3e5e5;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 5px 5px;
+    padding: 12px 41px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    border-radius: 29px;
+    display: block;
+}
+
+#navbar ul li a:hover {
+    color: rgb(17, 180, 251);
+    font-weight: bolder;
+    background-color: rgb(251, 247, 247);
+    border-radius: 21px;
+}
+#Appointments a{
+    font-weight: bolder;
+}
+
+/* For Appointment button */
+
+.btn {
+    background-color: #57dcc1;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 23px;
+    border: none;
+    margin: 7px 7px;
+    padding: 9px 19px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+.btn:hover {
+    background-color: #16a085;
+    border-radius: 25px;
+    font-size: 1.4rem;
+
+}
+
+.head {
+    top: 34rem;
+    position: absolute;
+    margin: 12px 12px;
+    padding: 12px 12px;
+
+}
+
+.appointment{
+    position:absolute;
+    min-height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-size: cover;
+    padding:50px 50px;
+
+}
+.appointment.content .text-for-head{
+    margin: 12px 12px;
+    padding :12px 12px;
+}
+.appointment .content{
+    max-width: 1000px;
+    text-align: center;
+}
+.appointment .content h1{
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    color: #16a085;
+    text-align: center;
+    text-shadow: 3px 3px #cae5b8;
+}
+.appointment .content h3 p{
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: #763de8;
+    text-align: center;
+    text-shadow: 3px 3px #cae5b8;
+}
+.appointment .content .img-appointment{
+ display: flex;   
+ border: 2px solid #763de8;
+ width: 55%;
+ border-radius: 23px;
+}
+.appointment .content .img-appointment img{
+    width: 100%;
+    border-radius: 23px;
+}
+.appointment h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0 101 169);
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Droid Sans', sans-serif;
+}
+.appointment{
+    padding: 11px 7px;
+}
+.container{
+    display: flex;
+}
+.appointment input[type="text"],.appointment input[type="number"] ,.appointment input[type="email"],.appointment input[type="date"],.appointment input[type="time"],textarea {
+    width: 85%;
+    color: rgb(65 78 82);
+    outline: none;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px solid #0b6fb2;
+    margin: .3em 0em 1em;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(127, 178, 212, 0.31);
+}
+textarea {
+	resize:none;
+	height:25px
+}
+.appointment select.form-control {
+    outline: none;
+    font-size: 0.9em;
+    padding: 7px 10px;
+    width: 89.5%;
+	margin: 5px 0px 16px;
+    border-radius: 0;
+   background: rgba(127, 178, 212, 0.31);
+    color:#000000;
+    border: none;
+    border-bottom: 2px solid #0b6fb2;
+    font-family: 'Roboto', sans-serif;
+}
+.appointment select.form-control option {
+    background:rgb(255, 255, 255);
+}
+input[type=submit] {
+    display: block;
+    border-radius: 23px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 9px 30px;
+    font-size: 1.04em;
+    cursor: pointer;
+    border: 2px solid #ff9900;
+    outline: none;
+    background: #ff9900;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s all ease;
+}
+input[type=submit]:hover {
+    background: #023e99;
+    border-color: #023e99;
+    color: #fefefe;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+.left-side {
+    width: 49%;
+    float: left;
+}
+.right-side{
+    width: 49%;
+    float: left;
+}
+.appointment p {
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: .5px;
+	text-transform:capitalize;
+}

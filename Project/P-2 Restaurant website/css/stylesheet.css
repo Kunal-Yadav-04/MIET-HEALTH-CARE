@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* logo and image  */
+#logo {
+    margin: 3px 1px;
+
+}
+
+#logo:hover {
+    cursor: pointer;
+
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    margin: 3px 1px;
+
+}
+
+#navbar {
+    position: absolute;
+    top: 0px;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+ #navbar ul li {
+    list-style: none;
+
+}
+
+
+#navbar ul li a {
+    color: white;
+    padding: 12px 12px;
+    margin: 12px 12px;
+    font-size: 1.68rem;
+    text-decoration: none;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    transition: all 0.9s ease;
+}
+
+#navbar ul li a:hover {
+    color: rebeccapurple;
+    background-color: white;
+    border-radius: 21px;
+}
+
+/* Css of heading  [h-primary] */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 400px;
+    height: 700px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    /*text ko centre me karne ke liye*/
+    font-family: 'Alkalami', serif;
+
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    height: 118%;
+    width: 100%;
+
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+/* Utility classes */
+.h-primary {
+    font-size: 2.4rem;
+    padding: 52px;
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+#home p {
+    text-align: center;
+    font-family: 'Alkalami', serif;
+    font-family: 'Inspiration', cursive;
+    color: white;
+    font-size: 1.rem;
+}
+
+.btn {
+    padding: 5px 22px;
+    border: 3px solid black;
+
+    /* background-color: rgb(164, 59, 59); */
+    /* color: white; */
+    font-size: 1.5rem;
+    border-radius: 12px;
+    margin: 17px;
+    text-align: center;
+    cursor: pointer;
+    /* from youtube */
+    transition: ease-out 0.3s;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: rgb(182, 122, 243);
+    font-size: larger;
+}
+
+.btn:before {
+    /*Form youtube*/
+    transition: 0.5s all ease;
+    /*|*/
+    position: absolute;
+    top: 0;
+    left: 50;
+    right: 50;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #ffffff;
+}
+
+.btn:hover:before {
+    transition: 0.5 all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+
+/* Services center */
+.center {
+    text-align: center;
+
+}
+
+.h-secondary center {
+
+    padding: 12px;
+    font-size: .3rem;
+    text-align: center;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    margin: 25px 50px;
+    padding: 23px 43px;
+    border-radius: 25px;
+    background-color: #e8eae5;
+}
+
+#services .box img {
+    margin: auto;
+    height: 150px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.h-primary {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#services .box img:hover {
+    height: 140px;
+    cursor: pointer;
+
+}
+
+/* clients section css is here */
+#client-section {
+    height: 3px;
+
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('..//images/bg.jpg');
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img {
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+#clients img:hover {
+    height: 120px;
+    cursor: pointer;
+}
+
+.client-items {
+    padding: 23px 23px;
+    margin: 25px 23px;
+}
+
+/* Contact Sectioj this is used to create the css of contact which is given by th user*/
+#contact {
+
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: url(..//images/contact.jpg) no-repeat center center/cover;
+
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
